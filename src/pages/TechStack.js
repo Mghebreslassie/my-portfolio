@@ -1,11 +1,9 @@
 import React from "react"
 import { SectionTitle, SectionWord } from "../stylesheets/globalStyle"
 import {
-  Footer,
   TechContainer,
   TechIconRow,
   TechIconContainer,
-  Title,
   TechIcon,
 } from "../stylesheets/techstack"
 
@@ -19,36 +17,36 @@ function TechStack() {
       <TechIconContainer>
         <TechIconRow>
           <TechIcon>
-            <i class="devicon-azure-plain"></i>
+            <i className="devicon-azure-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-html5-plain"></i>
+            <i className="devicon-html5-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-express-original-wordmark"></i>
+            <i className="devicon-express-original-wordmark"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-react-original"></i>
+            <i className="devicon-react-original"></i>
           </TechIcon>
         </TechIconRow>
         <TechIconRow>
           <TechIcon>
-            <i class="devicon-javascript-plain"></i>
+            <i className="devicon-javascript-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-postgresql-plain"></i>
+            <i className="devicon-postgresql-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-python-plain"></i>
+            <i className="devicon-python-plain"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
           </TechIcon>
           <TechIcon>
-            <i class="devicon-docker-plain"></i>
+            <i className="devicon-docker-plain"></i>
           </TechIcon>
         </TechIconRow>
       </TechIconContainer>

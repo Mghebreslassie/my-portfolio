@@ -11,10 +11,8 @@ import {
 import {
   OutlinedButtonText,
   SmallText,
-  LargeText,
   SectionTitle,
   SectionWord,
-  LargeHeading,
   MediumHeading,
   MediumText,
 } from "../stylesheets/globalStyle"

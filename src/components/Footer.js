@@ -7,16 +7,16 @@ function Footer() {
     <Container>
       <SocialRow>
         <SocialIcon>
-          <i class="devicon-facebook-plain"></i>
+          <i className="devicon-facebook-plain"></i>
         </SocialIcon>
         <SocialIcon>
-          <i class="devicon-twitter-plain"></i>
+          <i className="devicon-twitter-plain"></i>
         </SocialIcon>
         <SocialIcon>
-          <i class="devicon-github-plain"></i>
+          <i className="devicon-github-plain"></i>
         </SocialIcon>
         <SocialIcon>
-          <i class="devicon-linkedin-plain"></i>
+          <i className="devicon-linkedin-plain"></i>
         </SocialIcon>
       </SocialRow>
     </Container>

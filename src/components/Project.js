@@ -15,12 +15,7 @@ import {
   MediumItemText,
   SmallItemText,
 } from "../stylesheets/projects"
-import {
-  PillButtonStyle,
-  SmallArticle,
-  SmallHeading,
-  SmallText,
-} from "../stylesheets/globalStyle"
+import { PillButtonStyle, SmallHeading } from "../stylesheets/globalStyle"
 
 function Project({ image, desc }) {
   return (
@@ -40,10 +35,10 @@ function Project({ image, desc }) {
             <SmallItemText>{desc}</SmallItemText>
           </ItemSummary>
           <TechIconList>
-            <i class="devicon-nodejs-plain"></i>
-            <i class="devicon-nodejs-plain"></i>
-            <i class="devicon-nodejs-plain"></i>
-            <i class="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
+            <i className="devicon-nodejs-plain"></i>
           </TechIconList>
         </RightSide>
       </Top>

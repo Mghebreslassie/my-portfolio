@@ -14,11 +14,7 @@ import {
 } from "../stylesheets/teststyle"
 import versa from "../assets/versaMonitor.png"
 import versaMobile from "../assets/versaMobile.png"
-import {
-  OutlinedButtonText,
-  SmallHeading,
-  SmallText,
-} from "../stylesheets/globalStyle"
+import { OutlinedButtonText, SmallHeading } from "../stylesheets/globalStyle"
 
 function Test() {
   return (
@@ -36,10 +32,10 @@ function Test() {
             a platform to sell goods. fully functional crud app.
           </Desc>
           <Icons>
-            <i class="devicon-docker-plain"></i>
-            <i class="devicon-azure-plain"></i>
-            <i class="devicon-react-plain"></i>
-            <i class="devicon-javascript-plain"></i>
+            <i className="devicon-docker-plain"></i>
+            <i className="devicon-azure-plain"></i>
+            <i className="devicon-react-plain"></i>
+            <i className="devicon-javascript-plain"></i>
           </Icons>
           <Footer>
             <OutlinedButtonText>

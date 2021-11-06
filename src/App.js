@@ -5,8 +5,6 @@ import NavBar from "./components/NavBar"
 import Projects from "./pages/Projects"
 import TechStack from "./pages/TechStack"
 import ContactMe from "./pages/ContactMe"
-import Footer from "./components/Footer"
-import Socials from "./components/Socials"
 import { TopSection } from "./stylesheets/landingpagestyle"
 import { BodyContainer, Container } from "./stylesheets"
 function App() {
@@ -14,7 +12,6 @@ function App() {
     <>
       <NavBar />
       <Container id="main-div">
-        {/* <Socials /> */}
         <BodyContainer>
           <GlobalStyle />
           <LandingPage />
@@ -26,7 +23,6 @@ function App() {
         <TopSection>
           <SmallText>design and coding by Messele G.</SmallText>
         </TopSection>
-        {/* <Footer /> */}
       </Container>
     </>
   )

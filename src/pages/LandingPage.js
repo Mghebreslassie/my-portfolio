@@ -1,16 +1,10 @@
 import React from "react"
-import {
-  TopSection,
-  ActionButton,
-  Content,
-  Intro,
-} from "../stylesheets/landingpagestyle"
+import { ActionButton, Content, Intro } from "../stylesheets/landingpagestyle"
 import {
   MainHeading,
   MediumHeading,
   OutlinedButtonText,
   SmallArticle,
-  SmallHeading,
   SmallText,
 } from "../stylesheets/globalStyle"
 

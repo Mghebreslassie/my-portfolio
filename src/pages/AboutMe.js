@@ -4,15 +4,8 @@ import {
   ImageContainer,
   AboutArticle,
 } from "../stylesheets/aboutme"
-import {
-  MediumText,
-  MediumArticle,
-  MediumHeading,
-  SmallArticle,
-  SmallText,
-} from "../stylesheets/globalStyle"
+import { SmallArticle, SmallText } from "../stylesheets/globalStyle"
 import { SectionTitle, SectionWord } from "../stylesheets/globalStyle"
-import barrack from "../assets/barrack.jpg"
 import peter from "../assets/peter.jpg"
 function AboutMe() {
   return (
