@@ -7,6 +7,7 @@ import TechStack from "./pages/TechStack"
 import ContactMe from "./pages/ContactMe"
 import { TopSection } from "./stylesheets/landingpagestyle"
 import { BodyContainer, Container } from "./stylesheets"
+
 function App() {
   return (
     <>

@@ -1,4 +1,5 @@
-import React from "react"
+import React, { useRef } from "react"
+import emailjs from "emailjs-com"
 import {
   ContactContainer,
   Header,
@@ -17,6 +18,26 @@ import {
   MediumText,
 } from "../stylesheets/globalStyle"
 function ContactMe() {
+  console.log(emailjs)
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
+  }
   return (
     <div id="contact">
       <SectionTitle>
@@ -34,16 +55,16 @@ function ContactMe() {
             your info in the form below and I look forward to hearing from you!
           </MediumText>
         </Message>
-        <FormMain>
-          <Input placeholder="name" />
-          <Input placeholder="email" />
-          <TextArea placeholder="message" />
+        <FormMain ref={form} onSubmit={sendEmail}>
+          <Input placeholder="name" name="name" />
+          <Input placeholder="email" email="email" />
+          <TextArea placeholder="message" name="message" />
+          <ButtonContainer>
+            <OutlinedButtonText type="submit">
+              <SmallText>submit</SmallText>
+            </OutlinedButtonText>
+          </ButtonContainer>
         </FormMain>
-        <ButtonContainer>
-          <OutlinedButtonText>
-            <SmallText>submit</SmallText>
-          </OutlinedButtonText>
-        </ButtonContainer>
       </ContactContainer>
     </div>
   )
