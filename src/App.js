@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
-
+import LandingPage from "./pages/LandingPage"
+import GlobalStyle, { SmallText } from "./stylesheets/globalStyle"
+import AboutMe from "./pages/AboutMe"
+import NavBar from "./components/NavBar"
+import Projects from "./pages/Projects"
+import TechStack from "./pages/TechStack"
+import ContactMe from "./pages/ContactMe"
+import Footer from "./components/Footer"
+import Socials from "./components/Socials"
+import { TopSection } from "./stylesheets/landingpagestyle"
+import { BodyContainer, Container } from "./stylesheets"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <NavBar />
+      <Container id="main-div">
+        {/* <Socials /> */}
+        <BodyContainer>
+          <GlobalStyle />
+          <LandingPage />
+          <AboutMe />
+          <Projects />
+          <TechStack />
+          <ContactMe />
+        </BodyContainer>
+        <TopSection>
+          <SmallText>design and coding by Messele G.</SmallText>
+        </TopSection>
+        {/* <Footer /> */}
+      </Container>
+    </>
+  )
 }
 
-export default App;
+export default App
