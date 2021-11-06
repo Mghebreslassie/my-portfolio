@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { device } from "./device"
-import { tieDye, animateA, animateB, animateC } from "./globalStyle"
+import { animateA, animateB, animateC } from "./globalStyle"
 
 export const TechContainer = styled.div``
 export const Title = styled.h1`
