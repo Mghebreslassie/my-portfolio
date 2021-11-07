@@ -46,7 +46,7 @@ function TechStack() {
             <i className="devicon-github-original"></i>
           </TechIcon>
           <TechIcon>
-            <i className="devicon-docker-plain"></i>
+            <i className="devicon-mongodb-plain"></i>
           </TechIcon>
         </TechIconRow>
       </TechIconContainer>

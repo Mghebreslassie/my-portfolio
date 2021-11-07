@@ -37,15 +37,17 @@ function Test({
           <Type>{type}</Type>
           <Desc>{desc}</Desc>
           <Icons>
-            <i className="devicon-docker-plain"></i>
-            <i className="devicon-azure-plain"></i>
+            <i className="devicon-express-original"></i>
+            <i className="devicon-nodejs-plain"></i>
             <i className="devicon-react-plain"></i>
             <i className="devicon-javascript-plain"></i>
           </Icons>
           <Footer>
             {code.length > 0 && (
               <OutlinedButtonText>
-                <SmallHeading>code</SmallHeading>
+                <a href={code} rel="noreferrer" target="_blank">
+                  <SmallHeading>code</SmallHeading>
+                </a>
               </OutlinedButtonText>
             )}
             <OutlinedButtonText
