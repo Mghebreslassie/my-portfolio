@@ -15,7 +15,7 @@ import {
   Content,
   Footer,
 } from "../stylesheets/testabout"
-import petro from "../assets/petro.jpg"
+import messele from "../assets/messele.jpg"
 
 function TestAbout() {
   return (
@@ -48,7 +48,7 @@ function TestAbout() {
             </div>
           </LeftContainer>
           <RightContainer>
-            <ImageContainer src={petro} />
+            <ImageContainer src={messele} />
           </RightContainer>
         </Content>
         <Footer>
