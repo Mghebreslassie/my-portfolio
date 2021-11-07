@@ -9,7 +9,7 @@
         "video":"/assets/Videos/versa.mp4"
     },
     {
-        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "desc": "a contact management CRUD web app. Front end was built with React and back end with ExpressJS. Db was hosted with Azure and used SQL. No source code available due to being a private contracted job.",
         "lrgImg": "./assets/monitor/corilMonitor.png",
         "smlImg": "assets/phone/corilMobile.png",
         "type": "address book web app",
@@ -18,7 +18,7 @@
         "video":"/assets/Videos/coril.mp4"
     },
     {
-        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "desc": "A functional todo list application. Front end built with React and back end built with ExpressJS. MongoDb is used on the backend and has a responsive design.",
         "lrgImg": "./assets/monitor/todoMonitor.png",
         "smlImg": "assets/phone/todoMobile.png",
         "type": "CRUD web app",
