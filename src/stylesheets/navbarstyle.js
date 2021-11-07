@@ -24,7 +24,7 @@ export const MobileContainer = styled.div`
     right: 0;
     width: 70%;
     height: 50vh;
-    background: var(--color-accent-primary);
+    background: var(--color-primary);
     &.open {
       animation: ${dropDown} 0.3s ease-out forwards;
     }
@@ -91,7 +91,6 @@ export const Item = styled.li`
     justify-content: center;
     align-items: center;
     color: white;
-    border-top: 3px solid var(--color-accent-secondary);
     ::before {
       transition: opacity 0.3s linear;
       content: "";

@@ -18,7 +18,6 @@ import {
   MediumText,
 } from "../stylesheets/globalStyle"
 function ContactMe() {
-  console.log(emailjs)
   const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()

@@ -23,7 +23,9 @@ function LandingPage() {
         </SmallArticle>
         <ActionButton>
           <OutlinedButtonText>
-            <SmallText>Click to go below!</SmallText>
+            <SmallText>
+              <a href="#contact">Contact me!</a>
+            </SmallText>
           </OutlinedButtonText>
         </ActionButton>
       </Content>

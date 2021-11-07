@@ -25,6 +25,6 @@ export const BodyContainer = styled.div`
     width: 60vw;
     margin: 0 auto;
     margin-bottom: 5%;
-    background: aliceblue;
+    background: white;
   }
 `

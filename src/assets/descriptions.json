@@ -1,9 +1,29 @@
 {"items": [
     {
-        "desc": "src assts descriptions json items"
-    },{
-        "desc": "src assts descriptions json items"
-    },{
-        "desc": "src assts descriptions json items"
+        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "lrgImg": "./assets/monitor/versaMonitor.png",
+        "smlImg": "assets/phone/versaMobile.png",
+        "type": "ecommerce web app",
+        "title": "Versa",
+        "code":"https://github.com/MunibaWq/The-Fellowship-Of-The-Stack",
+        "video":"/assets/Videos/versa.mp4"
+    },
+    {
+        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "lrgImg": "./assets/monitor/corilMonitor.png",
+        "smlImg": "assets/phone/corilMobile.png",
+        "type": "address book web app",
+        "title": "Coril",
+        "code":"",
+        "video":"/assets/Videos/coril.mp4"
+    },
+    {
+        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "lrgImg": "./assets/monitor/todoMonitor.png",
+        "smlImg": "assets/phone/todoMobile.png",
+        "type": "CRUD web app",
+        "title": "Todo",
+        "code":"https://github.com/Mghebreslassie/yt-todoapp",
+        "video":"./assets/Videos/todo.mp4"
     }
 ]}

@@ -5,11 +5,14 @@ import { shakeAround } from "./globalStyle"
 export const Container = styled.div`
   @media ${device.mobileS} {
     width: 90%;
-    margin: 0 auto;
+    margin: 10% auto;
     display: flex;
     flex-direction: column;
+    background: aliceblue;
+    border-radius: 2% 2% 0 0;
   }
   @media ${device.laptopL} {
+    background: aliceblue;
   }
 `
 export const Image = styled.img`

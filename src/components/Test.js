@@ -12,25 +12,30 @@ import {
   Right,
   MobilePic,
 } from "../stylesheets/teststyle"
-import versa from "../assets/versaMonitor.png"
-import versaMobile from "../assets/versaMobile.png"
 import { OutlinedButtonText, SmallHeading } from "../stylesheets/globalStyle"
 
-function Test() {
+function Test({
+  lrgImg,
+  title,
+  smlImg,
+  type,
+  desc,
+  setShowVideo,
+  video,
+  code,
+  setVideoSrc,
+}) {
   return (
     <Container>
-      <Image src={versa}></Image>
-      <Title>versa</Title>
+      <Image src={`${process.env.PUBLIC_URL}${lrgImg}`}></Image>
+      <Title>{title}</Title>
       <BodyContainer>
         <Left>
-          <MobilePic src={versaMobile} />
+          <MobilePic src={`${process.env.PUBLIC_URL}${smlImg}`} />
         </Left>
         <Right>
-          <Type>ecommerce web app</Type>
-          <Desc>
-            a web app built with react and express. Meant to give local artists
-            a platform to sell goods. fully functional crud app.
-          </Desc>
+          <Type>{type}</Type>
+          <Desc>{desc}</Desc>
           <Icons>
             <i className="devicon-docker-plain"></i>
             <i className="devicon-azure-plain"></i>
@@ -38,10 +43,17 @@ function Test() {
             <i className="devicon-javascript-plain"></i>
           </Icons>
           <Footer>
-            <OutlinedButtonText>
-              <SmallHeading>code</SmallHeading>
-            </OutlinedButtonText>
-            <OutlinedButtonText>
+            {code.length > 0 && (
+              <OutlinedButtonText>
+                <SmallHeading>code</SmallHeading>
+              </OutlinedButtonText>
+            )}
+            <OutlinedButtonText
+              onClick={() => {
+                setShowVideo(true)
+                setVideoSrc(video)
+              }}
+            >
               <SmallHeading>view</SmallHeading>
             </OutlinedButtonText>
           </Footer>

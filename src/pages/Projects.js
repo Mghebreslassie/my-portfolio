@@ -1,23 +1,34 @@
 import React from "react"
 import { SectionTitle, SectionWord } from "../stylesheets/globalStyle"
-import A from "../assets/descriptions.json"
 import { ProjectContainer } from "../stylesheets/projects"
 import Test from "../components/Test"
+import projectInfo from "../assets/descriptions.json"
 
-function Projects() {
-  console.log(A)
+function Projects({ setVideoSrc, setShowVideo }) {
   return (
     <ProjectContainer id="projects">
       <SectionTitle>
         <SectionWord>my</SectionWord>
         <SectionWord>projects</SectionWord>
       </SectionTitle>
-      <Test />
-      <Test />
-      <Test />
-      {/* <Project image={v} desc={A.items[0].desc} />
-      <Project image={v2} desc={A.items[0].desc} />
-      <Project image={v3} desc={A.items[0].desc} /> */}
+      {projectInfo.items.map((item, index) => {
+        return (
+          <Test
+            key={index}
+            title={item.title}
+            type={item.type}
+            desc={item.desc}
+            smlImg={item.smlImg}
+            lrgImg={item.lrgImg}
+            video={item.video}
+            code={item.code}
+            setShowVideo={setShowVideo}
+            setVideoSrc={setVideoSrc}
+          />
+        )
+      })}
+      {/* <Test /> */}
+      {/* <Test /> */}
     </ProjectContainer>
   )
 }

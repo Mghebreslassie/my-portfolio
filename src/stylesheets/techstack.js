@@ -24,14 +24,14 @@ export const TechIcon = styled.div`
     font-size: 40px;
     box-shadow: 1px 1px 0.25rem grey;
     border-radius: 5px;
-    :hover {
-      background: linear-gradient(63deg, #2cf0b5, #fb583d, #f3e51b);
-      background-size: 600% 600%;
-      color: var(--color-tertiary);
-      -webkit-animation: ${animateA} 2s ease infinite;
-      -moz-animation: ${animateB} 2s ease infinite;
-      animation: ${animateC} 2s ease infinite;
-    }
+    // :hover {
+    //   background: linear-gradient(63deg, #2cf0b5, #fb583d, #f3e51b);
+    //   background-size: 600% 600%;
+    //   color: var(--color-tertiary);
+    //   -webkit-animation: ${animateA} 2s ease infinite;
+    //   -moz-animation: ${animateB} 2s ease infinite;
+    //   animation: ${animateC} 2s ease infinite;
+    // }
   }
   @media ${device.laptop} {
     font-size: 100px;

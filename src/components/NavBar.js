@@ -15,6 +15,7 @@ import {
   NavContainer,
   Resume,
 } from "../stylesheets/navbarstyle"
+import Pdf from "../assets/FunctionalResume.pdf"
 
 function NavBar() {
   const [showMobile, setShowMobile] = useState(false)
@@ -41,14 +42,22 @@ function NavBar() {
   return (
     <div style={{ position: "sticky", top: "0", zIndex: "10" }}>
       <NavContainer>
-        <Logo onClick={() => console.log("hello")}>
+        <Logo
+          onClick={() => {
+            window.scrollTo({
+              top: 50,
+              left: 50,
+              behavior: "smooth",
+            })
+          }}
+        >
           <SmallText>MG</SmallText>
         </Logo>
         <ItemContainer>
           <ItemList>
             <Item>
               <SmallText>
-                <Link href="#about">about</Link>
+                <Link href="#aboutme">about</Link>
               </SmallText>
             </Item>
             <Item>
@@ -70,7 +79,9 @@ function NavBar() {
         </ItemContainer>
         <Resume>
           <OutlinedButtonText>
-            <SmallText>resume</SmallText>
+            <a href={Pdf} rel="noreferrer" target="_blank">
+              <SmallText>resume</SmallText>
+            </a>
           </OutlinedButtonText>
         </Resume>
         <MobileMenu onClick={() => isOpen()}>
@@ -103,16 +114,24 @@ function NavBar() {
         >
           <ItemList>
             <Item>
-              <MediumHeading>about</MediumHeading>
+              <Link href="#aboutme">
+                <MediumHeading>about</MediumHeading>
+              </Link>
             </Item>
             <Item>
-              <MediumHeading>projects</MediumHeading>
+              <Link href="#projects">
+                <MediumHeading>projects</MediumHeading>
+              </Link>
             </Item>
             <Item>
-              <MediumHeading>skills</MediumHeading>
+              <Link href="#techstack">
+                <MediumHeading>skills</MediumHeading>
+              </Link>
             </Item>
             <Item>
-              <MediumHeading>contact</MediumHeading>
+              <Link href="#contact">
+                <MediumHeading>contact</MediumHeading>
+              </Link>
             </Item>
           </ItemList>
         </MobileContainer>
