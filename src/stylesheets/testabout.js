@@ -24,7 +24,6 @@ export const RightContainer = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  background: rgba(0.3, 0.3, 0.3, 0.3);
   @media ${device.mobileS} {
     justify-content: center;
   }
