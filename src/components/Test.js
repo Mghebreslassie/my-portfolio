@@ -50,6 +50,19 @@ function Test({
                 </a>
               </OutlinedButtonText>
             )}
+            {title === "Versa" && (
+              <OutlinedButtonText>
+                <SmallHeading>
+                  <a
+                    href="https://versa-staging.herokuapp.com"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    live
+                  </a>
+                </SmallHeading>
+              </OutlinedButtonText>
+            )}
             <OutlinedButtonText
               onClick={() => {
                 setShowVideo(true)

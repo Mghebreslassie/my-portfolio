@@ -1,6 +1,6 @@
 {"items": [
     {
-        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. fully functional crud app.",
+        "desc": "a web app built with react and express. Meant to give local artists a platform to sell goods. Fully functional crud app.",
         "lrgImg": "./assets/monitor/versaMonitor.png",
         "smlImg": "assets/phone/versaMobile.png",
         "type": "ecommerce web app",

@@ -12,7 +12,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  min-height: 130vh;
+  padding-bottom: 20vh;
 `
 
 export const ActionButton = styled.div`
@@ -21,6 +21,7 @@ export const ActionButton = styled.div`
   font-family: urbanist;
   padding: 5% 0 0 0;
   align-items: center;
+  padding-right: 5vw;
 `
 export const Intro = styled.div`
   margin-top: 15%;

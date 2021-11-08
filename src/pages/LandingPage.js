@@ -22,13 +22,53 @@ function LandingPage() {
           things as well. Feel free to leave a message in the contact form, and
           I'll do my best to get back to you asap. Thanks!
         </SmallArticle>
-        <ActionButton>
-          <OutlinedButtonText>
-            <SmallText>
-              <a href="#contact">Contact me!</a>
-            </SmallText>
-          </OutlinedButtonText>
-        </ActionButton>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+          }}
+        >
+          <ActionButton>
+            <OutlinedButtonText>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <i
+                  style={{ paddingRight: "10px", fontSize: "2rem" }}
+                  className="devicon-github-original"
+                ></i>
+                <SmallText>
+                  <a href="https://github.com/Mghebreslassie">Github</a>
+                </SmallText>
+              </div>
+            </OutlinedButtonText>
+          </ActionButton>
+          <ActionButton>
+            <OutlinedButtonText>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <i
+                  style={{ paddingRight: "10px", fontSize: "2rem" }}
+                  className="devicon-linkedin-plain"
+                ></i>
+                <SmallText>
+                  <a href="https://www.linkedin.com/in/messele-ghebreslassie">
+                    Linkedin
+                  </a>
+                </SmallText>
+              </div>
+            </OutlinedButtonText>
+          </ActionButton>
+        </div>
       </Content>
     </div>
   )
