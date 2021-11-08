@@ -24,13 +24,15 @@ export const RightContainer = styled.div`
   flex: 1;
   display: flex;
   justify-content: flex-end;
+  background: rgba(0.3, 0.3, 0.3, 0.3);
   @media ${device.mobileS} {
     justify-content: center;
   }
   align-items: center;
 `
 export const ImageContainer = styled.img`
-  height: 90%;
+  width: 90%;
+
   max-height: 60vh;
   object-fit: cover;
 `

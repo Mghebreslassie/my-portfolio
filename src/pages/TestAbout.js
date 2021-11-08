@@ -43,7 +43,7 @@ function TestAbout() {
                 I’m interested in programming and video games, I like books and
                 musical instruments too. I’m currently learning react native.
                 I’m looking to collaborate on an open source project. Best way
-                to reach me is with morse code or smoke signals.
+                to reach me is through leaving a message further below.
               </SmallText>
             </div>
           </LeftContainer>

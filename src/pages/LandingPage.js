@@ -17,10 +17,10 @@ function LandingPage() {
         </Intro>
         <MainHeading>MESSELE GHEBRESLASSIE</MainHeading>
         <SmallArticle>
-          I'm a full stack developer from Calgary, Alberta. I have a bit of a
-          knack for building web apps, and insatiable hungry to improve my
-          skills. Feel free to leave a message in the contact form, and I'll do
-          my best to get back to you asap. Thanks!
+          I'm a full stack developer from Calgary, Alberta. I love to program
+          and build things with software. I loved to be challenged and learn new
+          things as well. Feel free to leave a message in the contact form, and
+          I'll do my best to get back to you asap. Thanks!
         </SmallArticle>
         <ActionButton>
           <OutlinedButtonText>
