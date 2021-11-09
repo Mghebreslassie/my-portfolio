@@ -48,6 +48,9 @@ export const MobilePic = styled.img`
 export const Right = styled.div`
   @media ${device.laptopL} {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 `
 
@@ -61,10 +64,10 @@ export const Title = styled.h2`
     background-color: var(--color-accent-primary);
   }
   @media ${device.laptop} {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   @media ${device.laptopL} {
-    font-size: 6rem;
+    font-size: 5rem;
     padding: 3%;
   }
 `
@@ -76,10 +79,10 @@ export const Type = styled.h4`
     color: var(--color-accent-primary);
   }
   @media ${device.laptop} {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   @media ${device.laptopL} {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 `
 export const Desc = styled.p`
@@ -89,10 +92,10 @@ export const Desc = styled.p`
     text-align: center;
   }
   @media ${device.laptop} {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
   @media ${device.laptopL} {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 `
 export const Icons = styled.div`
@@ -110,10 +113,10 @@ export const Icons = styled.div`
     }
   }
   @media ${device.laptop} {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   @media ${device.laptopL} {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 `
 export const Footer = styled.div`
