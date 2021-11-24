@@ -25,5 +25,14 @@
         "title": "Todo",
         "code":"https://github.com/Mghebreslassie/yt-todoapp",
         "video":"./assets/Videos/todo.mp4"
+    },
+    {
+        "desc": "A functional paint application built with javascript for a hackathon project.",
+        "lrgImg": "./assets/monitor/paintScreen.png",
+        "smlImg": "assets/phone/paintMobile.png",
+        "type": "Vanilla JS",
+        "title": "Overspray",
+        "code":"https://github.com/Mghebreslassie/paint",
+        "video":"./assets/Videos/todo.mp4"
     }
 ]}
