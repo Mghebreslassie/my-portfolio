@@ -18,7 +18,7 @@
         "video":"/assets/Videos/coril.mp4"
     },
     {
-        "desc":"A web application using typescript and nextjs frontend that shows game data from an express backend with mongodb.",
+        "desc":"A web application using typescript and nextjs frontend that shows game data from an express backend with mongodb. view @ https://frame-trap.vercel.app/",
         "lrgImg":"./assets/monitor/frameTrapDesk.png",
         "smlImg":"./assets/phone/frameTrapMobile.png",
         "type":"CRUD web app",
@@ -27,7 +27,7 @@
         "video":"./assets/Videos/frameTrap.mp4"
     },
     {
-        "desc":"A chat application using React with typescript and express with websockets via socket.io library in the backend.",
+        "desc":"A chat application using React with typescript and express with websockets via socket.io library in the backend. view @ https://lagom-chat.netlify.app/",
         "lrgImg":"./assets/monitor/chatDesk.png",
         "smlImg":"./assets/phone/chatMobile.png",
         "type":"Websocket chat app",
