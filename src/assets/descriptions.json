@@ -34,5 +34,23 @@
         "title": "Overspray",
         "code":"https://github.com/Mghebreslassie/paint",
         "video":"./assets/Videos/todo.mp4"
+    },
+    {
+        "desc":"A web application using typescript and nextjs frontend that shows game data from an express backend with mongodb.",
+        "lrgImg":"",
+        "smlImg":"",
+        "type":"CRUD web app",
+        "title":"FrameTrap",
+        "code":"https://github.com/Mghebreslassie/frameTrapClient",
+        "video":""
+    },
+    {
+        "desc":"A chat application using React with typescript and express with websockets via socket.io library in the backend.",
+        "lrgImg":"",
+        "smlImg":"",
+        "type":"Websocket chat app",
+        "title":"Lagom chat",
+        "code":"https://github.com/Mghebreslassie/chatApp",
+        "video":""
     }
 ]}
