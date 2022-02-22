@@ -32,7 +32,7 @@
         "smlImg":"./assets/phone/chatMobile.png",
         "type":"Websocket chat app",
         "title":"Lagom chat",
-        "code":"https://github.com/Mghebreslassie/chatApp",
+        "code":"https://github.com/Mghebreslassie/chat-app-client",
         "video":"./assets/Videos/chatApp.mp4"
     },
     {
