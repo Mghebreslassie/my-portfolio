@@ -18,13 +18,22 @@
         "video":"/assets/Videos/coril.mp4"
     },
     {
-        "desc": "A functional todo list application. Front end built with React and back end built with ExpressJS. MongoDb is used on the backend and has a responsive design.",
-        "lrgImg": "./assets/monitor/todoMonitor.png",
-        "smlImg": "assets/phone/todoMobile.png",
-        "type": "CRUD web app",
-        "title": "Todo",
-        "code":"https://github.com/Mghebreslassie/yt-todoapp",
-        "video":"./assets/Videos/todo.mp4"
+        "desc":"A web application using typescript and nextjs frontend that shows game data from an express backend with mongodb.",
+        "lrgImg":"./assets/monitor/frameTrapDesk.png",
+        "smlImg":"./assets/phone/frameTrapMobile.png",
+        "type":"CRUD web app",
+        "title":"FrameTrap",
+        "code":"https://github.com/Mghebreslassie/frameTrapClient",
+        "video":"./assets/Videos/frameTrap.mp4"
+    },
+    {
+        "desc":"A chat application using React with typescript and express with websockets via socket.io library in the backend.",
+        "lrgImg":"./assets/monitor/chatDesk.png",
+        "smlImg":"./assets/phone/chatMobile.png",
+        "type":"Websocket chat app",
+        "title":"Lagom chat",
+        "code":"https://github.com/Mghebreslassie/chatApp",
+        "video":"./assets/Videos/chatApp.mp4"
     },
     {
         "desc": "A functional paint application built with javascript for a hackathon project.",
@@ -34,23 +43,5 @@
         "title": "Overspray",
         "code":"https://github.com/Mghebreslassie/paint",
         "video":"./assets/Videos/todo.mp4"
-    },
-    {
-        "desc":"A web application using typescript and nextjs frontend that shows game data from an express backend with mongodb.",
-        "lrgImg":"",
-        "smlImg":"",
-        "type":"CRUD web app",
-        "title":"FrameTrap",
-        "code":"https://github.com/Mghebreslassie/frameTrapClient",
-        "video":""
-    },
-    {
-        "desc":"A chat application using React with typescript and express with websockets via socket.io library in the backend.",
-        "lrgImg":"",
-        "smlImg":"",
-        "type":"Websocket chat app",
-        "title":"Lagom chat",
-        "code":"https://github.com/Mghebreslassie/chatApp",
-        "video":""
     }
 ]}
